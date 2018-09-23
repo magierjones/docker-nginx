@@ -1,7 +1,7 @@
 # About this Repo
 
-NGINX custom base image derived from official image with
-some useful default configurations e.g. disable server signature, enables gzip compression, activates sending of no-transform header and open file cache configuration.
+Minimal NGINX custom base image derived from official image built on Alpine 3.8. 
+The image is only 6 MB and comes with some useful default configurations e.g. disable server signature, enables gzip compression, activates sending of no-transform header and open file cache configuration.
 
 [![Docker Stars](https://img.shields.io/docker/stars/pritkin/nginx.svg)](https://hub.docker.com/r/pritkin/nginx/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/pritkin/nginx.svg)](https://hub.docker.com/r/pritkin/nginx/)
